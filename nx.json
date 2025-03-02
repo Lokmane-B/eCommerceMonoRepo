@@ -12,5 +12,8 @@
       "{workspaceRoot}/.github/workflows/ci.yml"
     ]
   },
-  "nxCloudId": "67c43e06a4c793524f32cd99"
+  "nxCloudId": "67c43e06a4c793524f32cd99",
+  "projects": {
+    "backend": "apps/backend"
+  }
 }
