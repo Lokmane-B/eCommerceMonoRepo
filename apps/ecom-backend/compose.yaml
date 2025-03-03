@@ -1,0 +1,11 @@
+services:
+  database:
+    image: 'postgres:latest'
+    ports:
+      - '5432:5432'
+    environment:
+      - 'POSTGRES_USER=ecom'
+      - 'POSTGRES_DB=ecom'
+      - 'POSTGRES_PASSWORD=ecom'
+    volumes:
+      - './volumes/ecom/postgre:/var/lib/postgresql/data'
